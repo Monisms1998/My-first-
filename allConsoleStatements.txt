@@ -1,0 +1,168 @@
+var a = "sam was walking";
+a.slice(0,2)
+a.splice //no splice in strings
+[0,1,2].join('')
+[0,1,2].join(',')
+[0,1,2].join()
+a.split()
+a.split('')
+a.split(' ')
+a.split(',')
+a.split(' ', 2)
+a.split(' ', 1)
+a.split(' ', 3)
+var f = a.split(' ')
+f.splice(0)
+
+function add(a, b){
+	console.log(a,b);
+	return a + b;
+}
+
+add(2,3)
+
+function add(a, b = 0){
+	console.log(a, b);
+	return a + b;
+}
+
+add(3)
+
+add(3, 8)
+
+add(3, 8, 9)
+
+
+5 + NaN
+
+1/0
+
+var addFunc = function (a,b){
+	return a+b;
+}
+
+function multiply(a,b){
+	return function (a,b){
+		return a*b;
+    }
+}
+
+function multiply(a,b){
+	return function (a = a, b = b){
+		return a*b;
+    }
+}
+
+function multiply(a,b){
+	return function (){
+		return a*b;
+    }
+}
+
+var mult = multiply(3,4)
+
+mult()
+
+var addFunc = function (a,b){
+	return a+b;
+}
+
+function addFunc(a,b){
+ console.log("asd");
+}
+
+
+addFunc(2,3)
+
+function addFunc(a,b){
+ console.log("asd");
+}
+
+var a = 5;
+do {
+	console.log(a);
+} while(a-->0)
+
+a = 5
+do {
+	console.log(a);
+} while(--a>0)
+
+(123).toString()
+123..toString()
+
+var arr = [1,2,3,4]
+
+for(var i = 0; i< arr.length; i++){
+	console.log(arr[i]);
+}
+
+"awe@#$FSDFS".toUpperCase()
+
+"awe@#$FSDFS".toLowerCase()
+
+55555
+4444
+333
+22
+1
+54321
+5432
+543
+54
+5
+
+Math.pow(2,3)
+
+Math.round(3.5)
+
+Math.random()*100
+
+Math.round(Math.random()*100)
+
+
+
+var a = 4.521
+
+Math.floor(a)
+Math.ceil(a)
+a.toFixed(2)
+
+new Date()
+
+var date = new Date();
+
+date.getDay()
+
+date.setDate(4)
+
+date.getMonth()
+
+date.setMonth(1)
+
+date.getYear();
+
+date.setYear(0);
+
+date = new Date(0)
+
+date.setYear(-190)
+
+var a = 5
+for(var i = 0; i < a; i++){
+	if(i === 3) continue;
+	console.log(i);
+}
+for(var i = 0; i < a; i++){
+	if(i === 3) break;
+	console.log(i);
+}
+
+for(var i = 0; i < a; i++)
+	if(i) 
+		console.log(i);
+for(var i = 0; i < a; i++) if(i) console.log(i);
+
+console.log([1,2,3,4])
+
+
